@@ -1,0 +1,51 @@
+.assessment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 4px;
+  background-color: #bbc3c9;
+  height: fit-content;
+}
+
+.assessment-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.assessment-minutes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 55px;
+  border: 3px solid;
+  border-radius: 4px;
+  text-align: center;
+  background-color: aliceblue;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.assessment-description {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.assessment-button {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 25%;
+}

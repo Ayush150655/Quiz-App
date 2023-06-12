@@ -1,0 +1,96 @@
+.card {
+  background: #bbc3c9;
+  border-radius: 4px;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0;
+}
+
+.card ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+  max-width: 950px;
+}
+
+.card ul li.selected-answer {
+  background: #acbccc;
+  border: 1px solid #800080;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.buttons button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.buttons button.quit {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.buttons button.quit:hover {
+  background-color: #e60000;
+}
+
+.buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px 40px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .buttons button {
+    margin-top: 10px;
+  }
+}
